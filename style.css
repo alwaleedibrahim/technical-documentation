@@ -30,6 +30,18 @@ pre{
     background-color: #121212;color: #e2e2e2;
 }
 
+.code-snipp {
+    width: fit-content;
+}
+.clipboard {
+    float: right;
+    background-color: #d5d5d5;
+    padding: 0 2px;
+}
+.clipboard:hover {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 800px) {
     #navbar {
         position: relative;top: 0px;left: 0px;
